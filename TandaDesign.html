@@ -1,0 +1,187 @@
+<html>
+	<head>
+	<title>hi</title> 
+	<style>
+	table {
+	 font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+	
+	}
+		
+		td, th {
+		border: 1px solid #dddddd;
+		
+		
+		padding: 8px;
+		}
+	
+	
+	#Create
+	{
+		color: white;
+		background-color: 			#32CD32;
+		
+	
+	}
+	#Sent
+	{
+		color: white;
+		background-color: 	#D3D3D3;
+	}
+	
+	
+	#View
+	{
+		color: white;
+
+			background-color: #87CEFA;
+		
+	
+	}
+	
+	#Send
+	{
+		color: white;
+		background-color: #32CD32;
+		
+	}
+	
+	#thing
+	{
+		background-color: 	#FF4500;
+	}	
+	#StandardBtn
+	{
+		background-color: #87CEFA;
+	}
+	#CurrentBtn
+	{
+		background-color: #A9A9A9;
+	}
+	#FutureBtn
+	{
+		background-color: #A9A9A9;
+	}
+	#PreviousBtn
+	{
+		background-color: #A9A9A9;
+	}
+	#Settings
+	{
+		align: right;
+	}
+	</style>
+	
+	</head>
+	
+	
+	<body>
+	<label> Rostersinfo </label> 
+					<select>
+						<option value= "empty"></option>
+						<option value= "twow">November</option>
+						<option value= "fourw">Decemeber</option>
+						<option value= "Jan"> Janurary</option>
+					</select>
+					<select>
+						<option value= "empty"></option>
+						<option value= "twow">2016</option>
+						<option value= "fourw">2017</option>						
+					</select>
+					<button type = "button">Generate Entries</button>
+	<br>
+		<button type = "button">Add</button><!-- adds the next row into the roster--> 
+	<br>
+	
+	<table >
+		<tr> 
+			<th align = "left">Roster Dates</th>
+			<th>Actions</th>
+			<th>Send</th>
+			<th>Staff</th>
+			<th>Cost</th>
+		</tr>
+		<tr>
+			<td id = "Future">14 November - 20 November</td>
+			<td align = "left" ><button type = "button" style ="width:105%; height:200%" align = "left" id = "Create">Create Roster</button></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td id = "Future" >7 November - 13 November</td>
+			<td align = "center"><button type = "button" style ="width:105%; height:200%" id = "Create">Create Roster</button></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			
+		</tr>
+		<tr>
+			<td id = "Current">31 Octover - 6 November</td>
+			<td align = "center"><button type = "button" style ="width:105%; height:200%" id = "Create">Create Roster</button></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td id = "Current">24 October - 30 October</td>
+			<td align = "center"><button type = "button" style ="width:105%; height:200%" id = "Create">Create Roster</button></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td id = "Current">17 October - 23 October</td>
+				<td align = "center"><button type = "button" style ="width:105%; height:200%" id = "View">View Roster</button></td>
+				<td align = "center"><button type = "button" style ="width:105%; height:200%" id = "Send">Send Roster</button></td>
+			<td id = "thing">11/15 </td>
+			<td>$400</td> 
+		</tr>
+		<tr>
+			<td id = "Current">10 October - 16 October</td>
+			<td align = "center"><button type = "button" style ="width:105%; height:200%" id = "View">View Roster</button></td>
+			<td align = "center"><button type = "button" style ="width:105%; height:200%" id = "Send">Send Roster</button></td>
+			<td>30/15 </td>
+			<td id = "thing">$700</td> 
+		</tr>
+		<tr>
+			<td id = "Current">3 October - 9 October</td>
+			<td align = "center"><button type = "button" style ="width:105%; height:200%" id = "View">View Roster</button></td>
+			<td align = "center"><button type = "button" style ="width:105%; height:200%" id = "Sent">Sent</button></td>
+			<td >17/15 </td>
+			<td>$470</td> 
+		</tr>
+		<tr>
+			<td id = "Previous">26 September - 2 October</td>
+			<td align = "center"><button type = "button" style ="width:105%; height:200%" id = "View">View Roster</button></td>
+			<td align = "center"><button type = "button" style ="width:105%; height:200%" id = "Sent">Sent</button></td>
+			<td >20/15 </td>
+			<td>$500</td> 
+		</tr>
+		<tr>
+			<td id = "Previous">19 September - 25 September</td>
+			<td align = "center"><button type = "button" style ="width:105%; height:200%" id = "View">View Roster</button></td>
+			<td align = "center"><button type = "button" style ="width:105%; height:200%" id = "Sent">Sent</button></td>
+			<td >15/15 </td>
+			<td>$400</td> 
+		</tr>
+		<tr>
+			<td id = "Previous"> 10 September - 18 Septemeber</td>
+			<td align = "center"><button type = "button" style ="width:105%; height:200%" id = "View">View Roster</button></td>
+			<td align = "center"><button type = "button" style ="width:105%; height:200%" id = "Sent">Sent</button></td>
+			<td>15/15 </td>
+			<td>$400</td> 
+		</tr>
+		
+	</table>
+	<br>
+	<label>Displaying Rosters 1-10 of 45</label>
+	<br>
+	<button type = "button" id = "StandardBtn">Standard</button><button type = "button" id = "CurrentBtn">Current</button><button type = "button"id = "FutureBtn">Future</button><button type = "button" id = "PreviousBtn">Previous</button>
+	<button type = "button" id = "Settings" align = "right" >Settings</button>
+	<br>
+	<button type = "button">1</button><button type = "button">2</button><button type = "button">3</button><button type = "button">4</button><button type = "button">5</button><button type = "button">Next Page</button>
+	
+	</body>
+</html> 
