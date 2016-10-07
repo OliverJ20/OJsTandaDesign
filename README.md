@@ -1,6 +1,6 @@
 # OJsTandaDesign
 
-SO i feel it still needs some work design wise with making things more softer but couple points / ideas of features to add to the design since its mainly the same as the current tanda roster design.
+SO i feel it still needs some work design wise with making things more softer but couple points / ideas of features to add to the design since its mainly the same as the current tanda roster design & I'm still not super sure how I feel about that, if its alright to keep it similiar and only add a few features I feel are benecfical or not, but I have saught out multiple managers I know who make rosters and showed them my designs and plans and most seemed to like it.
 
 There is also some basic javascript I wish to add to enhance some base functionality, to have certain elements such as display buttons working and possible elements within the setting field
 
